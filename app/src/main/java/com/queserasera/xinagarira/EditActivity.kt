@@ -25,6 +25,6 @@ class EditActivity : AppCompatActivity() {
         startActivity(intent)
         overridePendingTransition(0, 0)
         finish()
-        overridePendingTransition(0, R.anim.fade_out)
+        overridePendingTransition(0, R.anim.fade_out_slow)
     }
 }
