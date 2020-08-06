@@ -27,6 +27,7 @@
         <activity
                 android:name=".EditActivity"
                 android:configChanges="keyboardHidden|orientation"
+                android:windowSoftInputMode="adjustResize"
                 android:screenOrientation="portrait" />
         <activity
                 android:name=".LoadingActivity"
